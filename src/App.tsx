@@ -3,6 +3,7 @@ import { toggleSiteTheme } from "./functions/toggleSiteTheme";
 import { Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing";
 import About from "./pages/About";
+import NavBar from "./components/NavBar/NavBar";
 
 let initial: boolean = true;
 
@@ -19,10 +20,13 @@ function App() {
 
   return (
     <div id="site-wrapper" className="bg-site-backgound w-screen h-screen">
-      <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
+      <section className="container mx-auto">
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </section>
     </div>
   );
 }
