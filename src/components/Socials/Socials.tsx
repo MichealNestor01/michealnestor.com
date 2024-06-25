@@ -19,10 +19,11 @@ const socials = [
 type SocialsProps = {
   className: string;
   size: number;
+  stroke: number;
 };
 
-const Socials: React.FC<SocialsProps> = ({ className, size }) => {
-  const classes = `${className} flex items-center justify-between w-36`;
+const Socials: React.FC<SocialsProps> = ({ className, size, stroke }) => {
+  const classes = `${className} flex items-center justify-between w-40`;
   return (
     <div className={classes}>
       {socials.map((social, index) => (
@@ -33,7 +34,7 @@ const Socials: React.FC<SocialsProps> = ({ className, size }) => {
           rel="noreferrer"
           href={social.link}
         >
-          <social.icon size={size} />
+          <social.icon size={size} stroke={stroke} />
         </a>
       ))}
     </div>

@@ -21,24 +21,24 @@ export default function NavBar() {
   return (
     <nav className="text-primary-colour flex items-center justify-between h-16 py-10">
       <h1
-        className="text-3xl font-bold cursor-pointer w-64"
+        className="text-3xl font-bold cursor-pointer w-72"
         onClick={() => navigate("/")}
       >
         Micheal Nestor
       </h1>
-      <section className="w-64 flex items-center justify-center">
+      <section className="w-72 flex items-center justify-center">
         <NavBarItem title="home" path="/" />
         <NavBarItem title="portfolio" path="/portfolio/" />
         <NavBarItem title="about" path="/about/" />
       </section>
-      <div className="w-64 flex items-center justify-end ">
-        <Socials className="mr-16" size={32} />
+      <div className="w-72 flex items-center justify-end ">
+        <Socials className="mr-20" size={42} stroke={1.4} />
         <ToggleButton
           className="hover-transition"
           optionAactive={siteThemeIsLight}
           onClick={lightModeToggleButton}
-          optionA={<IconMoonStars size={32} />}
-          optionB={<IconSunHigh size={32} />}
+          optionA={<IconMoonStars size={42} stroke={1.4} />}
+          optionB={<IconSunHigh size={42} stroke={1.4} />}
         />
       </div>
     </nav>
