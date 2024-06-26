@@ -19,7 +19,7 @@ export default function NavBar() {
   }
 
   return (
-    <nav className="text-primary-colour flex items-center justify-between h-16 py-10">
+    <nav className="flex items-center justify-between h-16 py-10 main-colour">
       <h1
         className="text-3xl font-bold cursor-pointer w-72"
         onClick={() => navigate("/")}

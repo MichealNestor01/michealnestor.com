@@ -19,3 +19,7 @@
 .hover-transition {
   @apply hover:text-hover-colour hover:scale-105 transition-all duration-200;
 }
+
+.main-colour {
+  @apply text-primary-colour transition-all duration-200;
+}
