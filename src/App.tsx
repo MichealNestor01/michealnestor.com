@@ -19,7 +19,7 @@ function App() {
   }, []);
 
   return (
-    <div id="site-wrapper" className="bg-site-backgound w-screen h-screen">
+    <div id="site-wrapper" className="w-screen h-screen">
       <section className="container mx-auto">
         <NavBar />
         <Routes>
