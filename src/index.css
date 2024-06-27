@@ -7,17 +7,19 @@
   transition: color 0.5s ease, background-color 0.5s ease;
 }
 .light {
-  --site-backgound: #fff;
-  --text-main-colour: #000;
-  --text-hover-colour: #28d6c7;
+  --site-backgound: #cef8ed;
+  --text-main-colour: #1f1f1f;
+  --text-secondary-colour: #3d3d3d;
+  --text-accent-colour: #cb5f5f;
 }
 .dark {
-  --site-backgound: #000;
-  --text-main-colour: #fff;
-  --text-hover-colour: #dd1cd0;
+  --site-backgound: #080837;
+  --text-main-colour: #ffffff;
+  --text-secondary-colour: rgba(255, 255, 255, 0.5);
+  --text-accent-colour: #b68cd9;
 }
 .hover-transition {
-  @apply hover:text-hover-colour hover:scale-105 transition-all duration-200;
+  @apply hover:text-accent-colour hover:scale-105 transition-all duration-200;
 }
 
 .main-colour {
