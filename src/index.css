@@ -59,3 +59,20 @@
   border-radius: 1rem;
   transition: all 0.2s ease;
 }
+#employment-interface {
+  width: 0.5rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  transition: all 0.2s ease;
+  position: absolute;
+  left: -1.2rem;
+}
+
+#employment-spine-connector {
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 2rem;
+  transition: all 0.2s ease;
+  position: absolute;
+  left: -6rem;
+}
