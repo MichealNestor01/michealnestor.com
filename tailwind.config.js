@@ -8,6 +8,7 @@ export default {
       },
       colors: {
         "primary-colour": "var(--text-main-colour)",
+        "secondary-colour": "var(--text-secondary-colour)",
         "site-backgound": "var(--site-backgound)",
         "accent-colour": "var(--text-accent-colour)",
       },
