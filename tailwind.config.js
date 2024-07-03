@@ -9,7 +9,7 @@ export default {
       colors: {
         "primary-colour": "var(--text-main-colour)",
         "secondary-colour": "var(--text-secondary-colour)",
-        "site-backgound": "var(--site-backgound)",
+        "site-backgound": "var(--site-background)",
         "accent-colour": "var(--text-accent-colour)",
       },
     },
