@@ -8,9 +8,9 @@
   --site-background: linear-gradient(230deg, #86f9f200 0%, #86f9f1a7 100%),
     radial-gradient(#cb5f5f4a 0%, #cb5f5f8d 100%), #fff;
   --card-background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.025) 0%,
-    rgba(22, 22, 22, 0.05) 100%
+    280deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
   );
   --text-main-colour: #1f1f1f;
   --text-secondary-colour: #3d3d3d;
@@ -26,14 +26,14 @@
     ),
     radial-gradient(#b68cd920 0%, #b68cd96d 100%), #000000;
   --card-background: linear-gradient(
-    120deg,
-    rgba(255, 255, 255, 0.25) 0%,
-    rgba(255, 255, 255, 0.1) 100%
+    130deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.01) 120%
   );
   --text-main-colour: #ffffff;
   --text-secondary-colour: rgba(255, 255, 255, 0.7);
   --text-accent-colour: #b68cd9;
-  --card-box-shadow: 0 4px 30px rgba(255, 255, 255, 0.15),
+  --card-box-shadow: 0 4px 30px rgba(255, 255, 255, 0.05),
     inset 0 1px 2px #b68cd9;
 }
 .hover-transition {
