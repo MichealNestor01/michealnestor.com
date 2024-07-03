@@ -34,7 +34,7 @@ const EmploymentCard: React.FC<EmploymentCardProps> = ({
         <p className="ml-2">{endDate}</p>
       </section>
       <p className="secondary-colour text-justify mt-1">{description}</p>
-      <section className="accent-colour flex items-center justify-start">
+      <section className="accent-colour flex items-center justify-start mt-1">
         {top4skills.map((skill, index) => (
           <>
             {index !== 0 && (
