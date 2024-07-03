@@ -1,9 +1,10 @@
 import EmploymentCard from "../components/Cards/EmploymentCard";
 import ProjectCard from "../components/Cards/ProjectCard";
+import thumbnail_rwp from "../assets/thumbnail_rwp.svg";
 
 export default function Landing() {
   return (
-    <section>
+    <section className="flex flex-col items-center justify-center">
       <h1 className="text-l text-primary-colour">landing page</h1>
       <div className="w-1/2 h-96">
         <EmploymentCard
@@ -15,12 +16,14 @@ export default function Landing() {
           skills={["Python", "Scaled Agile", "Elastic Search", "Data Science"]}
         />
         <div className="h-20 w-4" />
+      </div>
+      <div className="w-4/5">
         <ProjectCard
           title="Russian Word Profiler"
-          date="02/07/24"
           description="An open source linguistics analysis tool designed for researchers and teachers of the Russian language developed in partnership with the University of Leeds Department of Russian and Slavonic Studdies."
           skills={["Python", "Javascript", "React.js", "Flask"]}
-          learnMoreProjectEndpoint="russian-word-profiler"
+          thumbnail={thumbnail_rwp}
+          learnMoreProjectEndpoint={"russian-word-profiler"}
           runProjectEndpoint="https://russianwordprofiler.pythonanywhere.com/"
         />
       </div>
