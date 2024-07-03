@@ -23,9 +23,9 @@
   --site-background: linear-gradient(
       230deg,
       #86f9f200 0%,
-      rgba(25, 0, 64, 0.608) 100%
+      rgba(0, 6, 64, 0.608) 100%
     ),
-    radial-gradient(#b68cd920 0%, #b68cd96d 100%), #000000;
+    radial-gradient(#b68cd920 0%, #988cd96d 100%), #000000;
   --card-background: linear-gradient(
     130deg,
     rgba(255, 255, 255, 0.1) 0%,
