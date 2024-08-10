@@ -1,10 +1,12 @@
 import EmploymentCard from "../components/Cards/EmploymentCard";
 import ProjectCard from "../components/Cards/ProjectCard";
 import thumbnail_rwp from "../assets/thumbnail_rwp.svg";
+import LandingSplash from "../components/Splash/LandingSplash";
 
 export default function Landing() {
   return (
     <section className="flex flex-col items-center justify-center">
+      <LandingSplash />
       <h1 className="text-l text-primary-colour">landing page</h1>
       <div className="w-1/2 h-96">
         <EmploymentCard

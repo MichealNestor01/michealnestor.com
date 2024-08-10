@@ -11,6 +11,7 @@ export default {
         "secondary-colour": "var(--text-secondary-colour)",
         "site-backgound": "var(--site-background)",
         "accent-colour": "var(--text-accent-colour)",
+        "accent-colour2": "var(--text-accent-colour2)",
         "button-colour": "var(--text-button-colour)",
       },
     },
