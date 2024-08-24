@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { IconArrowRight } from "@tabler/icons-react";
+
 import EmploymentCard from "../components/Cards/EmploymentCard";
 import ProjectCard from "../components/Cards/ProjectCard";
 import thumbnail_rwp from "../assets/thumbnail_rwp.svg";
@@ -6,8 +9,25 @@ import LandingSplash from "../components/Splash/LandingSplash";
 export default function Landing() {
   return (
     <section className="flex flex-col items-center justify-center">
-      <LandingSplash />
-      <h1 className="text-l text-primary-colour">landing page</h1>
+      <section className="w-full h-[800px] flex items-center justify-between">
+        <div className="h-full flex flex-col justify-center">
+          <h1 className="text-7xl font-bold text-primary-colour">
+            I solve difficult problems and create elegant solutions
+          </h1>
+          <h1 className="text-3xl mt-5 text-secondary-colour">
+            What do you need solving?
+          </h1>
+          <Link
+            className="landing-button mt-5 text-button-colour bg-accent-colour"
+            to={`/portfolio/`}
+          >
+            <p>Look at my projects</p> <IconArrowRight />
+          </Link>
+        </div>
+        <div className="w-2/3">
+          <LandingSplash />
+        </div>
+      </section>
       <div className="w-1/2 h-96">
         <EmploymentCard
           company="Bank of America"
