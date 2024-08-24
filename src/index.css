@@ -64,6 +64,10 @@
   @apply fill-accent-colour transition-all duration-200;
 }
 
+.landing-button {
+  @apply rounded-full w-96 text-3xl flex items-center justify-evenly p-3 transition-all duration-200 hover:scale-105 active:scale-95;
+}
+
 #site-wrapper {
   transition: color 0.5s ease, background-color 0.5s ease;
   background: var(--site-background);
