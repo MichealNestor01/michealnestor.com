@@ -2,7 +2,7 @@ import faceimage from "../../assets/faceimage.jpg";
 
 export default function LandingSplash() {
   return (
-    <div className="w-[800px] h-[800px] border-2 p-6 grid grid-cols-9 grid-rows-9 gap-3">
+    <div className="w-[800px] h-[800px] p-6 grid grid-cols-9 grid-rows-9 gap-3">
       <div className="bg-accent-colour2 rounded-xl col-start-7 row-start-7 col-span-3 row-span-3 z-10" />
       <div className="rounded-xl overflow-hidden col-start-4 row-start-7 col-span-3 row-span-3 z-10 overflow-hidden rounded-xl">
         <svg
