@@ -5,6 +5,7 @@ import EmploymentCard from "../components/Cards/EmploymentCard";
 import ProjectCard from "../components/Cards/ProjectCard";
 import thumbnail_rwp from "../assets/thumbnail_rwp.svg";
 import LandingSplash from "../components/Splash/LandingSplash";
+import EmploymentSection from "../components/EmploymentSection/EmploymentSection";
 
 export default function Landing() {
   return (
@@ -28,6 +29,7 @@ export default function Landing() {
           <LandingSplash />
         </div>
       </section>
+      <EmploymentSection />
       <div className="w-1/2 h-96">
         <EmploymentCard
           company="Bank of America"
