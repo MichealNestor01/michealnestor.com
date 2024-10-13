@@ -14,7 +14,7 @@ export default function EmploymentSection() {
       </div>
       <div className="relative row-start-1 col-start-1 flex flex-row justify-end w-full h-fit">
         <div className="w-1/2 flex flex-col items-end">
-          <div className="mb-14" />
+          <div className="mb-24" />
           <EmploymentCard
             company="Bank of America"
             role="Technology Analyst"
