@@ -1,0 +1,21 @@
+@keyframes slides {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+@keyframes slides2 {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.spinner {
+  width: 200%;
+  animation: 10s slides infinite linear;
+}

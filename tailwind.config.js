@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      minHeight: {
+        big: "2000px",
+      },
       container: {
         center: true,
       },
