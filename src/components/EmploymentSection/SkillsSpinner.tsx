@@ -12,23 +12,25 @@ import reactLogo from "../../assets/skillsLogos/ReactLogo.png";
 import sqlLogo from "../../assets/skillsLogos/SqlLogo.png";
 import tailwindLogo from "../../assets/skillsLogos/TailwindLogo.png";
 import tsLogo from "../../assets/skillsLogos/TsLogo.png";
+import sassLog from "../../assets/skillsLogos/SassLogo.png";
 import "./spinner.css";
 
 const skillsLogos = [
-  pythonLogo,
-  reactLogo,
-  sqlLogo,
-  tailwindLogo,
-  tsLogo,
-  openGlLogo,
-  numpyLogo,
-  linuxLogo,
-  jsLogo,
-  javaLogo,
-  flaskLogo,
-  dockerLogo,
-  cppLogo,
   azureLogo,
+  dockerLogo,
+  linuxLogo,
+  flaskLogo,
+  numpyLogo,
+  pythonLogo,
+  cppLogo,
+  openGlLogo,
+  javaLogo,
+  tsLogo,
+  jsLogo,
+  reactLogo,
+  tailwindLogo,
+  sassLog,
+  sqlLogo,
 ];
 
 export default function SkillsSpinner() {
