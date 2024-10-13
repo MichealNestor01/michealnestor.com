@@ -20,7 +20,7 @@ const EmploymentCard: React.FC<EmploymentCardProps> = ({
 }) => {
   const top4skills = skills.slice(0, 4);
   return (
-    <div className="card w-4/5 text-l p-4">
+    <div className="card w-full text-l p-4">
       <header className="flex items-center justify-start relative">
         <div id="employment-spine-connector" className="bg-accent-colour" />
         <div id="employment-interface" className="bg-accent-colour" />
@@ -33,7 +33,7 @@ const EmploymentCard: React.FC<EmploymentCardProps> = ({
         <div id="separator-line" className="ml-2 bg-secondary-colour" />
         <p className="ml-2">{endDate}</p>
       </section>
-      <p className="secondary-colour text-justify mt-1">{description}</p>
+      <p className="secondary-colour text-justify mt-1 h-32">{description}</p>
       <section className="accent-colour flex items-center justify-start mt-1">
         {top4skills.map((skill, index) => (
           <>

@@ -71,7 +71,7 @@
 #site-wrapper {
   transition: color 0.5s ease, background-color 0.5s ease;
   background: var(--site-background);
-  height: 500vh;
+  height: fit-content;
 }
 
 #separator-circle {

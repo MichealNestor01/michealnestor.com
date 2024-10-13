@@ -38,10 +38,10 @@ export default function SkillsSpinner() {
   return (
     <div className="relative mt-4 w-full overflow-hidden">
       <div className="absoulte flex top-0 left-0 h-16 spinner">
-        <div className="flex items-center justify-evenly h-full w-1/2">
+        <div className="flex items-center justify-evenly gap-4 h-full w-1/2">
           {logoItemsDiv}
         </div>
-        <div className="flex items-center justify-evenly h-full w-1/2">
+        <div className="flex items-center justify-evenly gap-4 h-full w-1/2">
           {logoItemsDiv}
         </div>
       </div>
