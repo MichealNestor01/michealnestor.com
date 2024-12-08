@@ -47,7 +47,6 @@ export default function SkillsSpinner() {
           {logoItemsDiv}
         </div>
       </div>
-      {/* <div className="absolute top-0 right-0 w-full h-12 bg-purple-500 logoItems-first"></div> */}
     </div>
   );
 }
