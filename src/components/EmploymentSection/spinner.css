@@ -9,5 +9,5 @@
 
 .spinner {
   width: 200%;
-  animation: 10s slides infinite linear;
+  animation: 20s slides infinite linear;
 }
