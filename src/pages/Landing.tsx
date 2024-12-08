@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { IconArrowRight } from "@tabler/icons-react";
 
-import EmploymentCard from "../components/Cards/EmploymentCard";
 import ProjectCard from "../components/Cards/ProjectCard";
 import thumbnail_rwp from "../assets/thumbnail_rwp.svg";
 import LandingSplash from "../components/Splash/LandingSplash";
