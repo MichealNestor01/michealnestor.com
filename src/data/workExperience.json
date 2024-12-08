@@ -1,0 +1,44 @@
+[
+  {
+    "company": "Bank of America",
+    "role": "Technology Analyst",
+    "startDate": "10/07/24",
+    "endDate": "Present",
+    "description": "Contributed to the development and maintenance of critical equities risk systems, leveraging Python and Scaled Agile methodologies. Implemented enhancements to the risk engine and visualization tools, improving efficiency and decision-making. Collaborated with cross-functional teams to build stronger partnerships and deliver innovative solutions.",
+    "skills": [
+      "Python",
+      "Scaled Agile",
+      "Elastic Search",
+      "Information Visualization"
+    ]
+  },
+  {
+    "company": "Bank of America",
+    "role": "Summer Technology Analyst",
+    "startDate": "20/06/23",
+    "endDate": "28/08/23",
+    "description": "Utilized Python and data science techniques to automate report generation, identifying and addressing inefficiencies in the intra-day risk engine. Delivered actionable insights and recommendations for optimizing workflow and resource allocation. Collaborated with team members to improve data quality and ensure the accuracy of reporting.",
+    "skills": ["Python", "Scaled Agile", "Elastic Search", "Data Science"]
+  },
+  {
+    "company": "BAE Systems DI",
+    "role": "Software Engineer Intern",
+    "startDate": "20/06/22",
+    "endDate": "20/09/22",
+    "description": "Collaborated with law enforcement agencies to develop innovative software solutions. Employed Python and machine learning techniques for web scraping and data analysis, contributing to enhanced operational efficiency and decision-making.",
+    "skills": ["Python", "Machine Learning", "Web Scraping", "Containerization"]
+  },
+  {
+    "company": "University of Leeds",
+    "role": "Student Ambassador",
+    "startDate": "01/10/21",
+    "endDate": "01/07/24",
+    "description": "Provided leadership and support to fellow Computer Science students. Actively collected and analyzed student feedback to inform decisions and advocate for the cohort's needs. Effectively communicated with faculty and staff to address student concerns and improve the overall academic experience.",
+    "skills": [
+      "Leadership",
+      "Arbitration",
+      "Negotiation",
+      "Professional Communication"
+    ]
+  }
+]
