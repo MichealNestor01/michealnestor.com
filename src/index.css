@@ -94,12 +94,22 @@
   position: absolute;
   left: -1.2rem;
 }
-
 #employment-spine-connector {
   width: 1.4rem;
   height: 1.4rem;
   border-radius: 2rem;
   transition: all 0.2s ease;
   position: absolute;
-  left: -6rem;
+  left: -0.7rem;
+  top: 1.9%;
+}
+#employment-spine {
+  width: 0.5rem;
+  height: 77%;
+  border-radius: 1rem;
+  transition: all 0.2s ease;
+  position: absolute;
+  left: -0.25rem;
+  top: 2%;
+  /* bottom: 21%; */
 }
