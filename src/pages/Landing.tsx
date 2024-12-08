@@ -12,7 +12,7 @@ export default function Landing() {
       <section className="w-full h-[800px] flex items-center justify-between">
         <div className="h-full flex flex-col justify-center">
           <h1 className="text-7xl font-bold text-primary-colour">
-            I solve difficult problems and create elegant solutions
+            Driven to excel and eager to take on new challenges.
           </h1>
           <h1 className="text-3xl mt-5 text-secondary-colour">
             What do you need solving?
