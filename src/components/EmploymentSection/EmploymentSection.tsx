@@ -14,7 +14,7 @@ export default function EmploymentSection() {
       </div>
       <div className="relative row-start-1 col-start-1 flex flex-row justify-end w-full h-fit">
         <div className="w-1/2 flex flex-col  items-end  relative">
-          <div id="employment-spine" className="bg-accent-colour2" />
+          {/* <div id="employment-spine" className="bg-accent-colour2" /> */}
 
           {workExperienceData.map((experience, index) => (
             <>
@@ -34,6 +34,7 @@ export default function EmploymentSection() {
               <div key={`buffer-${index}`} className="mb-12" />
             </>
           ))}
+          <div className="mb-20" />
         </div>
       </div>
     </section>

@@ -20,7 +20,7 @@ const EmploymentCard: React.FC<EmploymentCardProps> = ({
 }) => {
   const top4skills = skills.slice(0, 4);
   return (
-    <div className="card w-11/12 text-l p-4">
+    <div className="card w-full text-l p-4">
       <header className="flex items-center justify-start relative">
         {/* <div id="employment-spine-connector" className="bg-accent-colour" /> */}
         <div id="employment-interface" className="bg-accent-colour" />
