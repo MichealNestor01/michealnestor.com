@@ -7,18 +7,18 @@
 export function toggleSiteTheme(force?: "light" | "dark"): void {
   if (force) {
     // used to manually set theme
-    const siteWrapper = document.getElementById("site-wrapper");
-    siteWrapper?.classList.remove("light", "dark");
-    siteWrapper?.classList.add(force);
+    const bodyTag = document.getElementsByTagName("body")[0];
+    bodyTag?.classList.remove("light", "dark");
+    bodyTag?.classList.add(force);
   } else {
     // used to toggle theme
-    const siteWrapper = document.getElementById("site-wrapper");
-    if (siteWrapper?.classList.contains("light")) {
-      siteWrapper?.classList.remove("light");
-      siteWrapper?.classList.add("dark");
+    const bodyTag = document.getElementsByTagName("body")[0];
+    if (bodyTag?.classList.contains("light")) {
+      bodyTag?.classList.remove("light");
+      bodyTag?.classList.add("dark");
     } else {
-      siteWrapper?.classList.remove("dark");
-      siteWrapper?.classList.add("light");
+      bodyTag?.classList.remove("dark");
+      bodyTag?.classList.add("light");
     }
   }
 }
