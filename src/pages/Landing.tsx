@@ -28,6 +28,7 @@ export default function Landing() {
           <LandingSplash />
         </div>
       </section>
+      <div className="mb-20" />
       <EmploymentSection />
       <div className="mb-20" />
       <div className="w-4/5">
