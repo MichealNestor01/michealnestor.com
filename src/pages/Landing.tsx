@@ -28,7 +28,6 @@ export default function Landing() {
           <LandingSplash />
         </div>
       </section>
-      <div className="mb-20" />
       <EmploymentSection />
       <div className="mb-20" />
       <div className="w-4/5">
@@ -41,7 +40,7 @@ export default function Landing() {
           runProjectEndpoint="https://russianwordprofiler.pythonanywhere.com/"
         />
       </div>
-      <div className="mb-64" />
+      <div className="mb-48" />
     </section>
   );
 }
