@@ -29,8 +29,11 @@ export default function Landing() {
         </div>
       </section>
       <EmploymentSection />
-      <div className="mb-20" />
-      <div className="w-4/5">
+      <div className="mb-28" />
+      <h1 className="text-9xl font-bold text-accent-colour text-right w-full">
+        FEATURED PROJECT
+      </h1>
+      <div className="w-4/5 flex flex-col items-center justify-center mt-12">
         <ProjectCard
           title="Russian Word Profiler"
           description="An open source linguistics analysis tool designed for researchers and teachers of the Russian language developed in partnership with the University of Leeds Department of Russian and Slavonic Studdies."
@@ -39,8 +42,14 @@ export default function Landing() {
           learnMoreProjectEndpoint={"russian-word-profiler"}
           runProjectEndpoint="https://russianwordprofiler.pythonanywhere.com/"
         />
+        <Link
+          className="landing-button mt-24 text-button-colour bg-accent-colour"
+          to={`/portfolio/`}
+        >
+          <p>See more projects</p> <IconArrowRight />
+        </Link>
       </div>
-      <div className="mb-48" />
+      <div className="mb-32" />
     </section>
   );
 }
