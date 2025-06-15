@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 270 40% 97%;
+    --foreground: 290 40% 18%;
+
+    --card: 270 46% 99%;
+    --card-foreground: 290 40% 18%;
+
+    --popover: 270 46% 99%;
+    --popover-foreground: 290 40% 18%;
+
+    --primary: 295 76% 55%; /* Dusk magenta */
+    --primary-foreground: 20 94% 99%;
+
+    --secondary: 265 43% 95%; /* Soft purple */
+    --secondary-foreground: 292 23% 32%;
+
+    --accent: 18 86% 66%; /* Warm salmon */
+    --accent-foreground: 270 20% 15%;
+
+    --destructive: 353 86% 60%;
+    --destructive-foreground: 20 94% 99%;
+
+    --muted: 285 16% 93%;
+    --muted-foreground: 290 16% 36%;
+
+    --border: 270 16% 88%;
+    --input: 270 16% 88%;
+    --ring: 293 53% 62%;
+
+    --radius: 1rem;
+  }
+
+  .dark {
+    --background: 269 32% 12%;
+    --foreground: 18 25% 94%;
+
+    --card: 278 40% 17%;
+    --card-foreground: 18 25% 96%;
+
+    --popover: 278 40% 17%;
+    --popover-foreground: 18 25% 96%;
+
+    --primary: 295 76% 58%; /* Lively magenta */
+    --primary-foreground: 18 94% 99%;
+
+    --secondary: 263 32% 22%;
+    --secondary-foreground: 18 94% 96%;
+
+    --accent: 18 90% 66%; /* Strong salmon */
+    --accent-foreground: 270 36% 98%;
+
+    --destructive: 353 90% 52%;
+    --destructive-foreground: 18 94% 99%;
+
+    --muted: 285 15% 35%;
+    --muted-foreground: 285 15% 62%;
+
+    --border: 269 32% 23%;
+    --input: 269 32% 23%;
+    --ring: 295 76% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Add scroll margin to section elements to account for fixed header */
+  section[id] {
+    scroll-margin-top: 5rem; /* Adjust this value based on your header height */
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-background/60 dark:bg-background/40 backdrop-blur-lg border border-border/50 dark:border-border/30 shadow-md;
+  }
+
+  .enhanced-glass {
+    @apply bg-background/40 dark:bg-background/20 hover:bg-background/50 dark:hover:bg-background/30 
+           backdrop-blur-xl border border-white/20 dark:border-white/10 
+           shadow-[0_8px_32px_rgba(0,0,0,0.15)] 
+           transition-all duration-300;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold text-foreground mb-8;
+  }
+
+  .section-container {
+    @apply py-16 px-4 md:px-8 max-w-7xl mx-auto;
+  }
+
+  .timeline-item {
+    @apply relative pl-8 pb-8 before:absolute before:left-0 before:top-2 before:h-4 before:w-4 before:rounded-full before:bg-primary;
+  }
+
+  .timeline-item::after {
+    content: "";
+    @apply absolute left-[7px] top-6 bottom-0 w-[2px] bg-border dark:bg-border/50;
+  }
+
+  .timeline-item:last-child::after {
+    @apply hidden;
+  }
+}
