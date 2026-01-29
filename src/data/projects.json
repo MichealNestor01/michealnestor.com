@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "title": "Russian Word Profiler",
+      "slug": "russian-word-profiler",
+      "description": "Linguistics analysis tool for researchers and teachers of Russian.",
+      "technologies": ["React", "Redux", "Python", "Flask"],
+      "githubUrl": "https://github.com/MichealNestor01/RussianWordProfiler/",
+      "image": "/images/portfolio/profilerWide.png",
+      "date": "2024-08-08",
+      "content": "Joint research project with the Russian and Slavonic Studies Department at the University of Leeds. It is a linguistics research tool, and education tool which aims to emulate the feature set of the AntWordProfiler, (Dr Laurence Anthony), except through a web based interface and designed for Russian. This project's point of contact with the department was Dr. Pavel Gudoshnikov and it was developed in collaboration with Ben Thirkill who lead design and UX",
+      "isRunnable": true,
+      "demoUrl": "https://russianwordprofiler.pythonanywhere.com/",
+      "mobileFriendly": false
+    },
+    {
+      "title": "Tower of Hanoi Visualiser",
+      "slug": "tower-of-hanoi",
+      "description": "Animated tower of hanoi puzzle solver with customisable tower size.",
+      "technologies": ["JavaScript", "Algorithms"],
+      "githubUrl": "https://github.com/MichealNestor01/Tower-of-Hanoi-Puzzle",
+      "image": "/images/portfolio/towerWide.png",
+      "date": "2021-04-25",
+      "content": "My computer science teacher challenged me to build a web app to animate the solving of the Tower of Hanoi puzzle. This was after a friend and I were playing with a physical model in class.\n\nThe app computes the full set of moves when the play button is pressed, and then proceeds to play them. The duration of the animation is scaled based on the number of moves required to solve the puzzle.",
+      "isRunnable": true,
+      "demoUrl": "/public/projects/Tower-of-Hanoi-Puzzle/index.html",
+      "mobileFriendly": false
+    }
+  ]
+}

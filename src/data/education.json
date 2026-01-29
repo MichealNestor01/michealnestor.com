@@ -1,0 +1,35 @@
+{
+  "educations": [
+    {
+      "institution": "University of Leeds",
+      "degree": "Computer Science BSc Hons (First Class, 4.0 GPA equivalent)",
+      "duration": "2021 - 2024",
+      "description": [
+        "First class dissertation: \"Generating and Exploring Feature Level-Sets in Arbitrary Multi-field Datasets\" - C++/OpenGL project reproducing recent research and creating a tool for analysing complex high-dimensional datasets",
+        "Student representative for 350 students across all three years",
+        "Created a full-stack linguistics research tool for the Russian and Slavonic Studies Department",
+        "Achieved TRKI A2 proficiency in Russian language"
+      ]
+    },
+    {
+      "institution": "St Mary's Catholic Sixth Form, Bishop's Stortford, Hertfordshire",
+      "degree": "A-Levels",
+      "description": [
+        "Computer Science: A*",
+        "Further Mathematics: A*",
+        "Mathematics: A*"
+      ],
+      "duration": "2019 - 2021"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Azure AZ-900: Azure Fundamentals",
+      "issuer": "Microsoft"
+    },
+    {
+      "name": "Azure AI-900: Azure AI Fundamentals",
+      "issuer": "Microsoft"
+    }
+  ]
+}

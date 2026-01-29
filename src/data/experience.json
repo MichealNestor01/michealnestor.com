@@ -1,0 +1,72 @@
+{
+  "experiences": [
+    {
+      "company": "Bank of America",
+      "position": "Analyst, Software Engineer I",
+      "location": "City of London, London",
+      "duration": "June 2024 - Present",
+      "description": "Working in the Equities Risk and P&L team on intraday risk systems.",
+      "achievements": [
+        "Became SME on all intraday risk stack components within a year; consulted on major feature implementations",
+        "Implemented YTD, MTD, MTM, and Late Trade P&L for global SWAPS migration; optimised risk engine, reducing latency by 50%",
+        "Built support tools aggregating logged data and generating graphs, reducing issue diagnosis time from over an hour to 5 minutes",
+        "Collaborated with application support and traders on prod support rota to identify, fix, test, and deploy solutions",
+        "Trained junior team members and an intern on systems and processes",
+        "Seconded to prime brokerage team: resolved performance issues (75% latency reduction), added Java aggregator features, and delivered risk limit breach workflow (TypeScript/React/Flask) in under two weeks"
+      ],
+      "skills": [
+        "Python",
+        "TypeScript",
+        "Java",
+        "React",
+        "AG Grid",
+        "Flask",
+        "Equities Risk and P&L",
+        "Derivative Pricing",
+        "P&L",
+        "Negotiation",
+        "Project Management"
+      ]
+    },
+    {
+      "company": "Bank of America",
+      "position": "Intern, Technology Analyst",
+      "location": "City of London, London",
+      "duration": "June 2023 - August 2023",
+      "description": "Placed in the Equity Linked Technology team working closely with equities traders",
+      "achievements": [
+        "Created framework and automated reports for identifying and resolving compute grid inefficiencies in intraday risk and P&L calculations",
+        "Developed expertise in data science, grid load balancing optimisation, and complex codebase navigation",
+        "Refined skills in Python, project management, and technical presentation"
+      ],
+      "skills": [
+        "Python",
+        "Data Science",
+        "Data Analysis",
+        "ELK",
+        "Equities Risk and P&L",
+        "Project Management"
+      ]
+    },
+    {
+      "company": "BAE Systems Digital Intelligence",
+      "position": "Intern, Software Engineer",
+      "location": "Southwark, London",
+      "duration": "June 2022 - September 2022",
+      "description": "Worked in the National Security business unit for law enforcement clients including CEOPs",
+      "achievements": [
+        "Created a tool for generating language recognition machine learning models",
+        "Built an automated, containerised dark web scraping tool"
+      ],
+      "skills": [
+        "React.js",
+        "Flask",
+        "Docker",
+        "Web Scraping",
+        "Machine Learning",
+        "Full-Stack",
+        "Project Management"
+      ]
+    }
+  ]
+}

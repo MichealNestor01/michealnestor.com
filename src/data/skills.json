@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "name": "Languages",
+      "skills": ["Python", "TypeScript", "Java", "C++", "C"]
+    },
+    {
+      "name": "Frameworks & Libraries",
+      "skills": ["FastMCP", "React.js", "Redux", "OpenGL", "Flask", "ELK"]
+    },
+    {
+      "name": "Tools & Platforms",
+      "skills": ["Agentic Workflows", "Git", "Linux", "Azure"]
+    },
+    {
+      "name": "Soft Skills",
+      "skills": [
+        "Working in complex code bases",
+        "Negotiating",
+        "Project Management",
+        "Conflict Resolution",
+        "Teamwork",
+        "Communication",
+        "Problem Solving"
+      ]
+    }
+  ],
+  "hobbies": [
+    "Bouldering & Top-Rope",
+    "Badminton",
+    "Running",
+    "Swimming",
+    "Weights",
+    "Hiking",
+    "Languages (Learning Russian)",
+    "Technical Development",
+    "Volunteering",
+    "Financial Risk Research"
+  ]
+}

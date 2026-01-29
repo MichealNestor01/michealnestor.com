@@ -1,0 +1,25 @@
+{
+  "name": "Micheal Nestor",
+  "title": "Software Engineer @ Bank of America",
+  "location": "London, UK",
+  "email": "michealnestor@outlook.com",
+  "linkedIn": "linkedin.com/in/michealnestor",
+  "socials": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/michealnestor01",
+      "icon": "github"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/michealnestor",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:michealnestor@outlook.com",
+      "icon": "mail"
+    }
+  ],
+  "about": "London-based software engineer with experience in high-performance financial systems, full-stack web apps, and data science. Passionate about elegant, scalable systems and clean code."
+}
