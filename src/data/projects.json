@@ -23,7 +23,7 @@
       "date": "2021-04-25",
       "content": "My computer science teacher challenged me to build a web app to animate the solving of the Tower of Hanoi puzzle. This was after a friend and I were playing with a physical model in class.\n\nThe app computes the full set of moves when the play button is pressed, and then proceeds to play them. The duration of the animation is scaled based on the number of moves required to solve the puzzle.",
       "isRunnable": true,
-      "demoUrl": "/public/projects/Tower-of-Hanoi-Puzzle/index.html",
+      "demoUrl": "/projects/Tower-of-Hanoi-Puzzle/index.html",
       "mobileFriendly": false
     }
   ]
