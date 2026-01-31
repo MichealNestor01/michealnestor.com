@@ -85,6 +85,11 @@
   section[id] {
     scroll-margin-top: 5rem; /* Adjust this value based on your header height */
   }
+
+  /* Prevent projects section from acting as scroll anchor so footer is reachable */
+  #projects {
+    overflow-anchor: none;
+  }
 }
 
 @layer components {
