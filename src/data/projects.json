@@ -14,6 +14,18 @@
       "mobileFriendly": false
     },
     {
+      "title": "Jack Compiler",
+      "slug": "jack-compiler",
+      "description": "Compiler for the Jack language (nand2tetris) built for COMP2932 Compiler Design and Construction.",
+      "technologies": ["C", "Compilers"],
+      "githubUrl": "https://github.com/MichealNestor01/jack-compiler",
+      "image": "/images/portfolio/compilerDiagram.png",
+      "date": "2024-06-01",
+      "content": "A compiler that translates the Jack language into Jack VM code using a recursive descent parser. Jack and the VM are the languages from the nand2tetris course. This was the primary assessed piece of work for COMP2932 Compiler Design and Construction; the code was tested using test scripts provided by Dr Mhd. A. Alsalka and received 100% of the available marks.\n\nI am proud of what I accomplished with this program, and it was a great opportunity to cement my confidence in C.",
+      "isRunnable": false,
+      "mobileFriendly": false
+    },
+    {
       "title": "Tower of Hanoi Visualiser",
       "slug": "tower-of-hanoi",
       "description": "Animated tower of hanoi puzzle solver with customisable tower size.",
