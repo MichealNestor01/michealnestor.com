@@ -85,15 +85,20 @@ export const TimelineItem = ({
 
   const content = (
     <div className="glass p-6 rounded-lg">
-      <div className="flex justify-between items-center">
+      <div className="flex flex-col gap-1 md:gap-3 md:flex-row md:justify-between md:items-center">
         <div>
           <h3 className="text-xl font-semibold">{title}</h3>
           <p className="text-primary font-medium mb-2">{subtitle}</p>
-          <div className="flex items-start">
-            <p className="text-sm text-muted-foreground mb-3">{duration}</p>
+          <div className="flex flex-col md:flex-row md:items-start">
+            <p className="text-sm text-muted-foreground mb-1 md:mb-3">
+              {duration}
+              {location && (
+                <span className="hidden md:inline">, </span>
+              )}
+            </p>
             {location && (
-              <p className="text-sm text-muted-foreground mb-3 italic">
-                {`, ${location}`}
+              <p className="text-sm text-muted-foreground mb-1 md:mb-3 italic">
+                {location}
               </p>
             )}
           </div>
@@ -103,7 +108,7 @@ export const TimelineItem = ({
             <Button
               variant="outline"
               size="sm"
-              className="rounded-full border-primary/50 hover:bg-primary/20 transition-all"
+              className="rounded-full border-primary/50 hover:bg-primary/20 transition-all self-start md:self-auto shrink-0 mt-2 mb-1 md:mt-0 md:mb-0"
             >
               <div className="flex items-center gap-2 text-primary text-sm font-medium">
                 {!isOpen ? "View details" : "Hide details"}
