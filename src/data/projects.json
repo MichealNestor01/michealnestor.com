@@ -16,7 +16,7 @@
     {
       "title": "Jack Compiler",
       "slug": "jack-compiler",
-      "description": "Compiler for the Jack language (nand2tetris) built for COMP2932 Compiler Design and Construction.",
+      "description": "Compiler for the Jack language built for COMP2932",
       "technologies": ["C", "Compilers"],
       "githubUrl": "https://github.com/MichealNestor01/jack-compiler",
       "image": "/images/portfolio/compilerDiagram.png",
