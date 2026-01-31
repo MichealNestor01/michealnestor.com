@@ -45,7 +45,7 @@
       "githubUrl": "https://github.com/MichealNestor01/tor-scraper-docker",
       "image": "/images/portfolio/torMain.png",
       "date": "2023-09-01",
-      "content": "Joint project with Leonie Kennedy. A Docker image that runs a Python scraper to fetch HTML and capture screenshots from any URL, including onion sites. The container uses a shared volume for output; you can run it in two modes, pass a single URL, or a text file of URLs to scrape in batch.",
+      "content": "Joint project with Leonie Kennedy. A Docker image that runs a Python scraper to fetch HTML and capture screenshots from any URL, including onion sites. The container uses a shared volume for output; you can run it in two modes, pass a single URL, or a text file of URLs to scrape in batch. This project uses a modified version of selenium for tor (tor-selenium) and makes use of a virtual frame buffer and modified tor config files to enable firefox to run through the terminal while still be able to capture video output.",
       "isRunnable": false,
       "mobileFriendly": false
     },
