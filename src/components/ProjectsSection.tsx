@@ -219,9 +219,22 @@ export const ProjectsSection = () => {
                   </div>
                 )}
                 <div className="p-6 flex flex-col flex-grow">
-                  <h3 className="text-xl font-semibold mb-2">
-                    {project.title}
-                  </h3>
+                  <div className="flex justify-between items-baseline gap-2 mb-2">
+                    <h3 className="text-xl font-semibold">
+                      {project.title}
+                    </h3>
+                    {project.date && (
+                      <time
+                        dateTime={project.date}
+                        className="text-sm text-muted-foreground shrink-0"
+                      >
+                        {new Date(project.date).toLocaleDateString("en-GB", {
+                          month: "short",
+                          year: "numeric",
+                        })}
+                      </time>
+                    )}
+                  </div>
                   <p className="text-muted-foreground mb-4 flex-grow">
                     {project.description}
                   </p>
