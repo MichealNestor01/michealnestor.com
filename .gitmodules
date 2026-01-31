@@ -1,3 +1,6 @@
 [submodule "public/projects/Tower-of-Hanoi-Puzzle"]
 	path = public/projects/Tower-of-Hanoi-Puzzle
 	url = https://github.com/MichealNestor01/Tower-of-Hanoi-Puzzle
+[submodule "public/projects/Sorting-Algorithms-Visualiser"]
+	path = public/projects/Sorting-Algorithms-Visualiser
+	url = https://github.com/MichealNestor01/Sorting-Algorithms-Visualiser.git

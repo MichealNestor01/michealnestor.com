@@ -37,6 +37,19 @@
       "isRunnable": true,
       "demoUrl": "/projects/Tower-of-Hanoi-Puzzle/index.html",
       "mobileFriendly": false
+    },
+    {
+      "title": "Sorting Algorithms Visualiser",
+      "slug": "sorting-algorithms-visualiser",
+      "description": "Web app that visualises bubble sort and quick sort algorithms.",
+      "technologies": ["JavaScript", "Algorithms"],
+      "githubUrl": "https://github.com/MichealNestor01/Sorting-Algorithms-Visualiser",
+      "image": "/images/portfolio/sortingMain.png",
+      "date": "2021-04-25",
+      "content": "Inspired by my work on sorting algorithms in further maths A-Level and a colour palette creator using the chroma-js library. Wanting to create an animation pushed me to learn how asynchronous code is handled in JavaScript. The bubble sort took about a week; the quick sort took significantly longer. It was my first time using recursion in JavaScript, and the main challenge was animating the recursive function—I did this by manipulating the order of the divs and only colouring the elements currently being sorted to show the recursive nature. I am proud of how it turned out.",
+      "isRunnable": true,
+      "demoUrl": "/projects/Sorting-Algorithms-Visualiser/index.html",
+      "mobileFriendly": false
     }
   ]
 }
