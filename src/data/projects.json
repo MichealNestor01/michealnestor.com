@@ -3,7 +3,7 @@
     {
       "title": "Russian Word Profiler",
       "slug": "russian-word-profiler",
-      "description": "Linguistics analysis tool for researchers and teachers of Russian.",
+      "description": "Linguistics analysis tool for researchers and teachers of Russian",
       "technologies": ["React", "Redux", "Python", "Flask"],
       "githubUrl": "https://github.com/MichealNestor01/RussianWordProfiler/",
       "image": "/images/portfolio/profilerWide.png",
@@ -11,6 +11,18 @@
       "content": "Joint research project with the Russian and Slavonic Studies Department at the University of Leeds. It is a linguistics research tool, and education tool which aims to emulate the feature set of the AntWordProfiler, (Dr Laurence Anthony), except through a web based interface and designed for Russian. This project's point of contact with the department was Dr. Pavel Gudoshnikov and it was developed in collaboration with Ben Thirkill who lead design and UX",
       "isRunnable": true,
       "demoUrl": "https://russianwordprofiler.pythonanywhere.com/",
+      "mobileFriendly": false
+    },
+    {
+      "title": "Blackjack in C",
+      "slug": "blackjack-in-c",
+      "description": "Simple command-line blackjack game written in C",
+      "technologies": ["C", "TDD"],
+      "githubUrl": "https://github.com/MichealNestor01/blackjack-in-c",
+      "image": "/images/portfolio/blackjackMain.png",
+      "date": "2025-01-31",
+      "content": "My first time using C in over 2 years, and I did not use an LLM assistant for code generation, though ChatGPT did help with the Makefile. Uses Unity for unit tests, and test driven development was followed throughout. There is room for future development to clean up the play_game and play_round functions and add tests for them, as well as player options such as doubling down and surrendering.",
+      "isRunnable": false,
       "mobileFriendly": false
     },
     {
@@ -28,7 +40,7 @@
     {
       "title": "Tower of Hanoi Visualiser",
       "slug": "tower-of-hanoi",
-      "description": "Animated tower of hanoi puzzle solver with customisable tower size.",
+      "description": "Animated tower of hanoi puzzle solver with customisable tower size",
       "technologies": ["JavaScript", "Algorithms"],
       "githubUrl": "https://github.com/MichealNestor01/Tower-of-Hanoi-Puzzle",
       "image": "/images/portfolio/towerWide.png",
@@ -41,7 +53,7 @@
     {
       "title": "Sorting Algorithms Visualiser",
       "slug": "sorting-algorithms-visualiser",
-      "description": "Web app that visualises bubble sort and quick sort algorithms.",
+      "description": "Web app that visualises bubble sort and quick sort algorithms",
       "technologies": ["JavaScript", "Algorithms"],
       "githubUrl": "https://github.com/MichealNestor01/Sorting-Algorithms-Visualiser",
       "image": "/images/portfolio/sortingMain.png",
