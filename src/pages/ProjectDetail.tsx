@@ -135,7 +135,7 @@ const ProjectDetail = () => {
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center px-4"
           >
             {project.title}
-            {project.mobileFriendly !== undefined && (
+            {project.isRunnable && project.mobileFriendly !== undefined && (
               <MobileIndicator mobileFriendly={project.mobileFriendly} />
             )}
           </motion.h1>
@@ -199,7 +199,7 @@ const ProjectDetail = () => {
             <p className="text-lg text-muted-foreground">
               {project.description}
             </p>
-            {project.mobileFriendly !== undefined && (
+            {project.isRunnable && project.mobileFriendly !== undefined && (
               <div className="mt-2">
                 <MobileIndicator mobileFriendly={project.mobileFriendly} />
               </div>
