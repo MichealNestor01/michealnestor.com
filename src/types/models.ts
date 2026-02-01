@@ -31,6 +31,8 @@ export interface Project {
   demoUrl?: string;
   /** Whether the project is mobile-friendly */
   mobileFriendly?: boolean;
+  /** Project filter tags (e.g. "Web app", "University coursework") */
+  tags?: string[];
 }
 
 /**

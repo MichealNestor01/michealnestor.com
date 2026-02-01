@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo, useRef } from "react";
 import { motion, AnimatePresence, useInView } from "framer-motion";
 import { Link } from "react-router-dom";
 import projectsData from "../data/projects.json";
+import { PROJECT_CATEGORIES } from "../data/projectCategories";
 import { icons } from "./ui/icons";
 import {
   fadeInUpProps,
@@ -30,7 +31,7 @@ const MAX_VISIBLE_PAGES = 5;
 /**
  * Projects section component.
  * Displays a filterable, paginated grid of portfolio projects.
- * Supports technology filtering and responsive pagination.
+ * Supports category filtering (e.g. Web app, University coursework) and responsive pagination.
  *
  * @component
  * @returns {JSX.Element} The projects section
@@ -63,21 +64,11 @@ export const ProjectsSection = () => {
     ? PROJECTS_PER_PAGE_MOBILE
     : PROJECTS_PER_PAGE_DESKTOP;
 
-  const allTechnologies = useMemo(
-    () =>
-      Array.from(
-        new Set(
-          projectsData.projects.flatMap((project) => project.technologies),
-        ),
-      ),
-    [],
-  );
-
   const filteredProjects = useMemo(
     () =>
       filter
-        ? projectsData.projects.filter((project) =>
-            project.technologies.includes(filter),
+        ? projectsData.projects.filter(
+            (project) => project.tags && project.tags.includes(filter),
           )
         : projectsData.projects,
     [filter],
@@ -172,17 +163,17 @@ export const ProjectsSection = () => {
             All
           </button>
 
-          {allTechnologies.map((tech) => (
+          {PROJECT_CATEGORIES.map((category) => (
             <button
-              key={tech}
-              onClick={() => handleFilterChange(tech)}
+              key={category}
+              onClick={() => handleFilterChange(category)}
               className={`px-4 py-1 rounded-full text-sm backdrop-blur-md transition-all ${
-                filter === tech
+                filter === category
                   ? "bg-primary text-white shadow-md"
                   : "enhanced-glass border border-white/10"
               }`}
             >
-              {tech}
+              {category}
             </button>
           ))}
         </div>
