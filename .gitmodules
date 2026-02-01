@@ -4,3 +4,6 @@
 [submodule "public/projects/Sorting-Algorithms-Visualiser"]
 	path = public/projects/Sorting-Algorithms-Visualiser
 	url = https://github.com/MichealNestor01/Sorting-Algorithms-Visualiser.git
+[submodule "public/projects/Sudoku-Solver"]
+	path = public/projects/Sudoku-Solver
+	url = https://github.com/MichealNestor01/Sudoku-Solver
