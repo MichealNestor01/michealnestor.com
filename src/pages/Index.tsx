@@ -1,6 +1,4 @@
 import { useEffect } from "react";
-import { Provider } from "react-redux";
-import { store } from "@/redux/store";
 import { motion, AnimatePresence } from "framer-motion";
 
 import { Header } from "@/components/Header";
@@ -15,8 +13,7 @@ import { AnimatedBackground } from "@/components/AnimatedBackground";
 
 /**
  * Main index page component.
- * Renders the complete portfolio website with all sections.
- * Wraps content in Redux Provider and applies page-level animations.
+ * Renders the complete portfolio website with all sections and page-level animations.
  *
  * @component
  * @returns {JSX.Element} The main portfolio page
@@ -27,8 +24,7 @@ const Index = () => {
   }, []);
 
   return (
-    <Provider store={store}>
-      <AnimatePresence>
+    <AnimatePresence>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -51,7 +47,6 @@ const Index = () => {
           <Footer />
         </motion.div>
       </AnimatePresence>
-    </Provider>
   );
 };
 
