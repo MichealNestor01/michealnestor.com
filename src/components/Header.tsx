@@ -68,9 +68,6 @@ export const Header = () => {
           <a href="#skills" className="hover:text-primary transition-colors">
             Skills
           </a>
-          <a href="#contact" className="hover:text-primary transition-colors">
-            Contact
-          </a>
         </nav>
 
         <div className="flex items-center space-x-4">
@@ -137,13 +134,6 @@ export const Header = () => {
                 onClick={handleNavLinkClick}
               >
                 Skills
-              </a>
-              <a
-                href="#contact"
-                className="hover:text-primary transition-colors py-1"
-                onClick={handleNavLinkClick}
-              >
-                Contact
               </a>
             </nav>
           </motion.div>

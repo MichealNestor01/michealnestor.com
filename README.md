@@ -14,7 +14,6 @@ A modern, responsive portfolio website showcasing my work, experience, and skill
   - Education history
   - Featured projects with detail pages
   - Skills showcase
-  - Contact information
 - **Project Showcase**: Detailed project pages with demos and GitHub links
 - **Smooth Animations**: Powered by Framer Motion for engaging user experience
 - **Type-Safe**: Built with TypeScript for better code quality
