@@ -2,17 +2,45 @@
   "experiences": [
     {
       "company": "Bank of America",
-      "position": "Analyst, Software Engineer I",
+      "position": "Tech Lead for Equities SRPL, Analyst, SWE 1",
       "location": "City of London, London",
-      "duration": "June 2024 - Present",
-      "description": "Working in the Equities Risk and P&L team on intraday risk systems.",
+      "duration": "Feb 2026 - Present",
+      "description": "Leading technical development for the $1.5 million SRPL PLEX program for Equities, overhauling the EOD PLEX system and onboarding equities to the horizontal markets wide horizontal Risk and P&L platform.",
       "achievements": [
-        "Became SME on all intraday risk stack components within a year; consulted on major feature implementations",
-        "Implemented YTD, MTD, MTM, and Late Trade P&L for global SWAPS migration; optimised risk engine, reducing latency by 50%",
-        "Built support tools aggregating logged data and generating graphs, reducing issue diagnosis time from over an hour to 5 minutes",
-        "Collaborated with application support and traders on prod support rota to identify, fix, test, and deploy solutions",
-        "Trained junior team members and an intern on systems and processes",
-        "Seconded to prime brokerage team: resolved performance issues (75% latency reduction), added Java aggregator features, and delivered risk limit breach workflow (TypeScript/React/Flask) in under two weeks"
+        "Organising the work for and technically supporting the three developers working on the project",
+        "Managing prioritisation of features and delivery timelines with key stakeholders in trading, finance & the quants",
+        "Successfully delivered the agreed POC having exceeded the agreed technical scope",
+        "Implemented all bump and reval based market P&Ls for equities including spot-based predicts",
+        "Suggested and implemented a novel solution for Instrument P&L in collaboration with the quants",
+        "Collaborated with quant teams, trading and senior technologists to agree a strategic solution for corporate actions",
+        "Lead development of MCP tooling for automating JIRA interactions for developers",
+        "Part of the Equities technology AI task force, focusing on training colleagues in how to make the most of AI"
+      ],
+      "skills": [
+        "Python",
+        "TypeScript",
+        "Java",
+        "React",
+        "Technical Leadership",
+        "Stakeholder Management",
+        "Equities Risk and P&L",
+        "Derivative Pricing",
+        "Project Management"
+      ]
+    },
+    {
+      "company": "Bank of America",
+      "position": "Analyst, SWE 1",
+      "location": "City of London, London",
+      "duration": "June 2024 - Jan 2026",
+      "description": "Working in the Equities Risk and P&L team on intraday risk systems, P&L implementations, and developer tooling. Delivered a POC for a new PLEX system that secured $1.5 million in funding, became an SME on the intraday risk stack, and was seconded to PB to resolve critical performance issues.",
+      "achievements": [
+        "Established as an SME on all of our intraday risk stack, consulted on the implementation of significant changes",
+        "Implemented YTD, MTD, MTM, and Late Trade P&L for the global SWAPS migration project; upgraded distribution algorithm, reducing risk latency by 50% for the AMRS SWAPS desk",
+        "Built a suite of support tools and scripts to aggregate logged data and generate graphs, reducing issue diagnosis time from over an hour to 5 minutes and providing visibility on previously unknown issues",
+        "Built strong relationships with application support and traders, routinely working with both to identify issues, then with quants to fix, test and deploy solutions",
+        "Trained junior members of the team and an intern on systems and processes",
+        "Seconded to PB intraday risk team: resolved performance issues (75% latency reduction), added Java aggregator features, and delivered risk limit breach acknowledgement workflow (TypeScript/AG Grid/React/Flask) in under two weeks"
       ],
       "skills": [
         "Python",
@@ -33,11 +61,10 @@
       "position": "Intern, Technology Analyst",
       "location": "City of London, London",
       "duration": "June 2023 - August 2023",
-      "description": "Placed in the Equity Linked Technology team working closely with equities traders",
+      "description": "Placed in the Equity Linked Technology team working closely with equities traders.",
       "achievements": [
-        "Created framework and automated reports for identifying and resolving compute grid inefficiencies in intraday risk and P&L calculations",
-        "Developed expertise in data science, grid load balancing optimisation, and complex codebase navigation",
-        "Refined skills in Python, project management, and technical presentation"
+        "Created a framework for isolating causes of inefficiency in the compute grid running intraday risk and P&L calculations",
+        "Created an automated report detailing how to amend inefficiencies in our use of the compute grid"
       ],
       "skills": [
         "Python",
@@ -53,10 +80,10 @@
       "position": "Intern, Software Engineer",
       "location": "Southwark, London",
       "duration": "June 2022 - September 2022",
-      "description": "Worked in the National Security business unit for law enforcement clients including CEOPs",
+      "description": "Worked in the National Security business unit for law enforcement clients including CEOPs.",
       "achievements": [
-        "Created a tool for generating language recognition machine learning models",
-        "Built an automated, containerised dark web scraping tool"
+        "Created tools for generating language recognition ML models",
+        "Built automated, containerised dark web scraping tools"
       ],
       "skills": [
         "React.js",
