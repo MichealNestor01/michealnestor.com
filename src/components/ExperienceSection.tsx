@@ -34,7 +34,7 @@ export const ExperienceSection = () => {
 
   const cvDownloadButton = (
     <a
-      href="/cv.pdf"
+      href="/MichealNestorCV.pdf"
       download
       target="_blank"
       rel="noopener noreferrer"
