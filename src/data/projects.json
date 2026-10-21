@@ -1,6 +1,20 @@
 {
   "projects": [
     {
+      "title": "TraitVis",
+      "slug": "traitvis",
+      "description": "Feature level-sets for multifield volume data, in the browser",
+      "technologies": ["C++", "WebGL", "Emscripten"],
+      "githubUrl": "https://github.com/MichealNestor01/traitvis",
+      "image": "/images/portfolio/traitvis.png",
+      "date": "2026-10-22",
+      "content": "Final-year project. TraitVis builds a feature level-set from points in a multifield volume and draws it with WebGL. The page can load a dataset folder, or the Hurricane Isabel sample (pressure, precipitation, and wind velocity).",
+      "isRunnable": true,
+      "demoUrl": "/projects/TraitVis/index.html",
+      "mobileFriendly": false,
+      "tags": ["Web Apps", "University Coursework"]
+    },
+    {
       "title": "Russian Word Profiler",
       "slug": "russian-word-profiler",
       "description": "Linguistics analysis tool for researchers and teachers of Russian",
