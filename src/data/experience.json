@@ -2,9 +2,35 @@
   "experiences": [
     {
       "company": "Bank of America",
+      "position": "Tech Lead for Equities SRPL, Analyst, SWE 2",
+      "location": "City of London, London",
+      "duration": "July 2026 - Present",
+      "description": "Leading technical development for the $1.5 million SRPL PLEX program for Equities, now with five developers. Continuing the EOD PLEX overhaul and onboarding equities to the strategic markets wide Risk and P&L platform.",
+      "achievements": [
+        "Organising the work for and technically supporting the five developers working on the project",
+        "Reviewed CVs and conducted first-round coding interviews for applicants to join the team",
+        "Managing prioritisation of features and delivery timelines with key stakeholders in trading, finance & the quants",
+        "Lead development of agentic workflows for e2e automation of our SDLC",
+        "Part of the Markets technology AI task force, upskilling colleagues and working on the markets AI-Fist SDLC Program",
+        "Recipient of the 2026 Global Volunteering Award"
+      ],
+      "skills": [
+        "Python",
+        "AI First SDLC",
+        "Agentic Workflows",
+        "Technical Leadership",
+        "Stakeholder Management",
+        "Equities Risk and P&L",
+        "Derivative Pricing",
+        "Agile Project Management",
+        "Agile Project Delivery"
+      ]
+    },
+    {
+      "company": "Bank of America",
       "position": "Tech Lead for Equities SRPL, Analyst, SWE 1",
       "location": "City of London, London",
-      "duration": "Feb 2026 - Present",
+      "duration": "Feb 2026 - June 2026",
       "description": "Leading technical development for the $1.5 million SRPL PLEX program for Equities, overhauling the EOD PLEX system and onboarding equities to the strategic markets wide Risk and P&L platform.",
       "achievements": [
         "Organising the work for and technically supporting the three developers working on the project",
