@@ -10,7 +10,7 @@
       "date": "2026-10-22",
       "content": "Final-year dissertation at the University of Leeds, supervised by Professor Hamish Carr and marked first class. TraitVis builds a feature level-set from points in a multifield volume and draws it with marching cubes. The submitted program is the v1.0-dissertation-submission branch. The current code keeps the distance field so a surface can be re-sliced, shades from the field gradient, and compiles the same C++ to WebAssembly for a WebGL2 page. The demo loads a dataset folder, or the Hurricane Isabel sample (pressure, precipitation, and wind velocity).",
       "isRunnable": true,
-      "demoUrl": "/projects/TraitVis/index.html",
+      "demoUrl": "/demos/TraitVis/index.html",
       "mobileFriendly": false,
       "tags": ["Web Apps", "University Coursework"]
     },
@@ -142,7 +142,7 @@
       "date": "2021-04-25",
       "content": "My computer science teacher challenged me to build a web app to animate the solving of the Tower of Hanoi puzzle. This was after a friend and I were playing with a physical model in class.\n\nThe app computes the full set of moves when the play button is pressed, and then proceeds to play them. The duration of the animation is scaled based on the number of moves required to solve the puzzle.",
       "isRunnable": true,
-      "demoUrl": "/projects/Tower-of-Hanoi-Puzzle/index.html",
+      "demoUrl": "/demos/Tower-of-Hanoi-Puzzle/index.html",
       "mobileFriendly": false,
       "tags": ["Web Apps"]
     },
@@ -156,7 +156,7 @@
       "date": "2020-07-01",
       "content": "Web app made during lockdown in July. After hitting a roadblock visualising recursive quicksort in the sorting algorithms project, I revisited a recursive backtracking Sudoku solver I had written in Python in January and recreated it in JavaScript to practise animation and async code before returning to quicksort. A major part of the project was getting to grips with asynchronous JavaScript—no sleep(5) like in Python, so I used async/await. The app has two built-in boards; it was also good practice for object-oriented programming in JS.",
       "isRunnable": true,
-      "demoUrl": "/projects/Sudoku-Solver/index.html",
+      "demoUrl": "/demos/Sudoku-Solver/index.html",
       "mobileFriendly": false,
       "tags": ["Web Apps"]
     },
@@ -170,7 +170,7 @@
       "date": "2020-04-25",
       "content": "Inspired by my work on sorting algorithms in further maths A-Level and a colour palette creator using the chroma-js library. Wanting to create an animation pushed me to learn how asynchronous code is handled in JavaScript. The bubble sort took about a week; the quick sort took significantly longer. It was my first time using recursion in JavaScript, and the main challenge was animating the recursive function—I did this by manipulating the order of the divs and only colouring the elements currently being sorted to show the recursive nature. I am proud of how it turned out.",
       "isRunnable": true,
-      "demoUrl": "/projects/Sorting-Algorithms-Visualiser/index.html",
+      "demoUrl": "/demos/Sorting-Algorithms-Visualiser/index.html",
       "mobileFriendly": false,
       "tags": ["Web Apps"]
     }
