@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import projectsData from "../data/projects.json";
@@ -70,6 +70,14 @@ const ProjectDetail = () => {
   const project: Project | undefined = projectsData.projects.find(
     (p: Project) => p.slug === slug
   );
+
+  useLayoutEffect(() => {
+    const root = document.documentElement;
+    const previous = root.style.scrollBehavior;
+    root.style.scrollBehavior = "auto";
+    window.scrollTo(0, 0);
+    root.style.scrollBehavior = previous;
+  }, [slug]);
 
   useEffect(() => {
     if (project) {
