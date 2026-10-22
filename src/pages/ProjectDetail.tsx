@@ -5,6 +5,7 @@ import projectsData from "../data/projects.json";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import DemoViewer from "../components/DemoViewer";
+import TraitVisArticle from "../components/TraitVisArticle";
 import type { Project } from "../types/models";
 import { icons } from "@/components/ui/icons";
 import { fadeInVariants } from "../lib/animations";
@@ -193,27 +194,34 @@ const ProjectDetail = () => {
             </CardContent>
           </Card>
 
-          {/* Project description summary */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">Overview</h2>
-            <p className="text-lg text-muted-foreground">
-              {project.description}
-            </p>
-            {project.isRunnable && project.mobileFriendly !== undefined && (
-              <div className="mt-2">
-                <MobileIndicator mobileFriendly={project.mobileFriendly} />
+          {project.slug === "traitvis" ? (
+            <TraitVisArticle />
+          ) : (
+            <>
+              <div className="mb-8">
+                <h2 className="text-2xl font-semibold mb-4">Overview</h2>
+                <p className="text-lg text-muted-foreground">
+                  {project.description}
+                </p>
+                {project.isRunnable &&
+                  project.mobileFriendly !== undefined && (
+                    <div className="mt-2">
+                      <MobileIndicator
+                        mobileFriendly={project.mobileFriendly}
+                      />
+                    </div>
+                  )}
               </div>
-            )}
-          </div>
 
-          {/* Project content - can be customized per project */}
-          <div className="prose prose-lg dark:prose-invert max-w-none">
-            {project.content
-              .split("\n\n")
-              .map((paragraph: string, index: number) => (
-                <p key={index}>{paragraph}</p>
-              ))}
-          </div>
+              <div className="prose prose-lg dark:prose-invert max-w-none">
+                {project.content
+                  .split("\n\n")
+                  .map((paragraph: string, index: number) => (
+                    <p key={index}>{paragraph}</p>
+                  ))}
+              </div>
+            </>
+          )}
 
           {/* Navigation */}
           <div className="mt-12 pt-6 border-t border-border flex justify-between">
