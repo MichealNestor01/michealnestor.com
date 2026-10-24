@@ -1,3 +1,13 @@
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { icons } from "@/components/ui/icons";
+import {
+  traitvisReportFile,
+  traitvisReportPath,
+} from "@/pages/DissertationReport";
+
+const DownloadIcon = icons.download;
+
 const steps = [
   {
     title: "Load a volume",
@@ -92,7 +102,20 @@ const TraitVisArticle = () => (
     </figure>
 
     <section>
-      <h2 className="text-2xl font-semibold mb-4">The dissertation</h2>
+      <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+        <h2 className="text-2xl font-semibold">The dissertation</h2>
+        <div className="flex flex-wrap gap-2">
+          <Button size="sm" asChild>
+            <Link to={traitvisReportPath}>Read the report</Link>
+          </Button>
+          <Button variant="outline" size="sm" className="gap-2" asChild>
+            <a href={traitvisReportFile} download="TraitVis-dissertation.pdf">
+              <DownloadIcon className="h-4 w-4" />
+              Download report
+            </a>
+          </Button>
+        </div>
+      </div>
       <div className="prose prose-lg dark:prose-invert max-w-none">
         <p>
           The report is <em>Generating and Exploring Feature Level-Sets in

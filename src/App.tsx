@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import ProjectDetail from "./pages/ProjectDetail";
+import DissertationReport from "./pages/DissertationReport";
 
 /**
  * Main application component.
@@ -22,6 +23,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/projects/:slug" element={<ProjectDetail />} />
+            <Route path="/reports/traitvis" element={<DissertationReport />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
