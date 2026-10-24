@@ -10,7 +10,7 @@ const DownloadIcon = icons.download;
 
 const steps = [
   {
-    title: "Load a volume",
+    title: "Load a dataset",
     body: "A folder of big-endian brick-of-floats files, one attribute each, plus a config.txt that names the grid, the index order, and an optional missing-value sentinel. The files themselves stay as they are.",
   },
   {
@@ -34,8 +34,8 @@ const steps = [
 const TraitVisArticle = () => (
   <article className="space-y-12 [&_p]:text-justify [&_p]:hyphens-auto">
     <p className="text-lg text-muted-foreground">
-      TraitVis draws a surface around a combination of values in a volume, then
-      lets you move around it. I wrote it for my final-year dissertation at the
+      TraitVis draws a surface around a combination of values in a multi-field
+      dataset, then lets you move around it. I wrote it for my final-year dissertation at the
       University of Leeds. The program on this page is that project as it stands
       now: the same feature level-sets, and a build that runs in the browser.
     </p>
@@ -44,7 +44,8 @@ const TraitVisArticle = () => (
       <h2 className="text-2xl font-semibold mb-4">What it draws</h2>
       <div className="prose prose-lg dark:prose-invert max-w-none">
         <p>
-          A lot of volume data stores several numbers at each point. Hurricane
+          A multi-field dataset, as defined for this project, is a set of scalar
+          fields on one shared spatial domain. Hurricane
           Isabel, the dataset in the dissertation and in the demo, is a Weather
           Research and Forecasting simulation released for the IEEE Visualization
           2004 contest by the U.S. National Center for Atmospheric Research. One
@@ -67,7 +68,7 @@ const TraitVisArticle = () => (
         </p>
         <p>
           The dissertation set out to reproduce that paper: load an arbitrary
-          multifield volume, define a trait as a set of points, generate the
+          multi-field dataset, define a trait as a set of points, generate the
           distance field, mesh it, and fly a first-person camera around the
           result. On an early Isabel timestep, a trait of low precipitation and
           low wind speed produced surfaces in which the coastlines of Florida
@@ -125,7 +126,7 @@ const TraitVisArticle = () => (
           <code>v1.0-dissertation-submission</code> branch.
         </p>
         <p>
-          There is no common file format for this kind of volume, so the reader
+          There is no common file format for multi-field datasets, so the reader
           takes a config file I specified for the project. It describes the
           grid, the index order, and each attribute's file, name, and range.
           Isabel's files are big-endian bricks of floats with no header. The
@@ -211,6 +212,30 @@ const TraitVisArticle = () => (
           Q and E move up and down, and Escape releases the camera. A surface
           with no vertices means no sample fell inside the distance. The page
           is built for a desktop browser.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2 className="text-2xl font-semibold mb-4">Hurricane Isabel</h2>
+      <div className="prose prose-lg dark:prose-invert max-w-none">
+        <p>
+          Micheal Nestor would like to thank Bill Kuo, Wei Wang, Cindy Bruyere,
+          Tim Scheitlin, and Don Middleton of the U.S. National Center for
+          Atmospheric Research (NCAR) and the U.S. National Science Foundation
+          (NSF) for providing the Weather Research and Forecasting (WRF) Model
+          simulation data of Hurricane Isabel.
+        </p>
+        <p>
+          The dataset is available from{" "}
+          <a
+            href="http://www.vets.ucar.edu/vg/isabeldata/"
+            target="_blank"
+            rel="noreferrer"
+            className="font-medium text-primary underline decoration-2 underline-offset-4"
+          >
+            NCAR
+          </a>.
         </p>
       </div>
     </section>
